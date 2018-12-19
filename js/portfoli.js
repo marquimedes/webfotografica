@@ -36,15 +36,15 @@
 		"img/portfoli/persones/g-ik.jpg",
 		"img/portfoli/persones/g-jj.jpg",
 		"img/portfoli/persones/g-kk.jpg",
-		"img/portfoli/persones/g-km.jpg",
+		"img/portfoli/persones/g-km.JPG",
 		"img/portfoli/persones/g-ll.jpg",
-		"img/portfoli/persones/g-mm.jpg",
+		"img/portfoli/persones/g-mm.JPG",
 		"img/portfoli/persones/g-nn.jpg"
 		]
 	var paisat = [
-		"img/portfoli/paisatge/p-aa.jpg",
+		"img/portfoli/paisatge/p-aa.JPG",
 		"img/portfoli/paisatge/p-bb.jpg",
-		"img/portfoli/paisatge/p-cc.jpg",
+		"img/portfoli/paisatge/p-cc.JPG",
 		"img/portfoli/paisatge/p-dd.jpg",
 		"img/portfoli/paisatge/p-ff.jpg",
 		"img/portfoli/paisatge/p-gg.jpg",
