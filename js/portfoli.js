@@ -36,9 +36,9 @@
 		"img/portfoli/persones/g-ik.jpg",
 		"img/portfoli/persones/g-jj.jpg",
 		"img/portfoli/persones/g-kk.jpg",
-		"img/portfoli/persones/g-k.jpg",
+		"img/portfoli/persones/g-km.jpg",
 		"img/portfoli/persones/g-ll.jpg",
-		"img/portfoli/persones/g-m.jpg",
+		"img/portfoli/persones/g-mm.jpg",
 		"img/portfoli/persones/g-nn.jpg"
 		]
 	var paisat = [
