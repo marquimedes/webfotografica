@@ -1,0 +1,141 @@
+body{
+    font-family: 'Montserrat';
+}
+.fons img{
+	z-index: -2;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	overflow: hidden;
+}
+.menuIc{
+	filter: invert(100%);
+}
+.titol h3{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0 5px 0;
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+	background:linear-gradient(to right,
+							rgba(0, 0, 0, 0),
+							rgba(0, 0, 0, 0.8),
+							rgba(0, 0, 0, 0.8),
+							rgba(0, 0, 0, 0));
+	top: 0px;
+}
+.totainfo{
+	position: absolute;
+	width: 75vw;
+	left: 25vw;
+	height: 83vh;
+	top: 100px;
+	overflow: scroll;
+}
+@media only screen and (max-height: 900px){
+	.totainfo{
+		height: 79vh;
+	}
+}
+@media only screen and (max-height: 700px){
+	.totainfo{
+		height: 74vh;
+	}
+}
+.imgperfil img.primera{
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	filter: grayscale(100%);
+}
+.contacte{
+	position: absolute;
+	top: 170px;
+	left: 210px;
+	padding: 3px 30px 3px 30px;
+	background: #ffffffd4;
+}
+.contacte p{
+	text-align: left;
+	padding: 5px 0 0 0;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 900;
+}
+.presentacio{
+	position: absolute;
+	top: 280px;
+	width: 700px;
+	left: -15px;
+	background: #ffffffd4;
+	padding: 3px 30px 3px 15px;
+}
+@media only screen and (max-width: 1100px){
+	.presentacio{
+		width: 550px;
+	}
+}
+.presentacio p{
+	text-align: left;
+	padding: 2px 0 2px 0;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 900;
+}
+.enrere{
+	margin: 0;
+	position: absolute;
+	bottom: 30px;
+	left: 35vw;
+	z-index: 1;
+}
+.enrere a{
+	background:linear-gradient(to right,
+							rgba(0, 0, 0, 0),
+							rgba(0, 0, 0, 0.8),
+							rgba(0, 0, 0, 0.8),
+							rgba(0, 0, 0, 0));
+	display: block;
+	width: 30vw;
+	min-width: 200px;
+	height: 30px;
+	margin: 0;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+.enrere img{
+	height: 100%;
+	top: 50%;
+	padding: 2px;
+	filter: invert(100%);
+}
+.enrere a:hover{
+	background:linear-gradient(to right,
+							rgba(0, 0, 0, 0),
+							rgba(0, 0, 0, 0.9),
+							rgba(0, 0, 0, 0.9),
+							rgba(0, 0, 0, 0));
+
+}
+::-webkit-scrollbar {
+    width: 25px;
+	position: abolute;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+	height: 300px;
+    background: radial-gradient(farthest-side at 100% 50%,
+								rgba(0, 0, 0, 0.7),
+								rgba(0, 0, 0, 0));
+}
+::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(farthest-side at 100% 50%,
+								rgba(0, 0, 0, 0.9),
+								rgba(0, 0, 0, 0));
+}

@@ -1,0 +1,146 @@
+body{
+    font-family: 'Montserrat';
+}
+.titol h1{
+    text-align: center;
+    position: absolute;
+    padding: 5px 0 30px 0;
+    width: 100%;
+	font-size: 90px;
+	font-weight: 100;
+	color: black;
+	background:linear-gradient(to right,
+							rgba(275, 275, 275, 0.0),
+							/*rgba(275, 275, 275, 0.8),*/
+							rgba(275, 275, 275, 0.8),
+							rgba(0, 0, 0, 0));
+	top: 0px;
+}
+.titol h3{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+	top: 108px;
+}
+.titol a{
+	color: black;
+	text-decoration: none;
+}
+.menu{
+	margin: 0;
+	position: absolute;
+	top: 260px;
+	left: 120px;
+	z-index: 1;
+}
+.menu a{
+	background:linear-gradient(to right,
+								rgba(0, 0, 0, 0),
+								rgba(275, 275, 275, 0.7),
+								rgba(275, 275, 275, 0.7),
+								rgba(0, 0, 0, 0));
+	display: block;
+	width: 35vw;
+	max-width: 440px;
+	height: 30px;
+	margin: 0;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+.menu .espaimenu{
+	height: 30px;
+	margin: 0;
+}
+.menu h2{
+	font-weight: 900;
+	margin: 0%;
+	font-size: 20px;
+	padding: 3px;
+	margin: 10px 0 0 0;
+}
+.menu a:hover{
+	background:linear-gradient(to right,
+								rgba(0, 0, 0, 0),
+								rgba(275, 275, 275, 0.9),
+								rgba(275, 275, 275, 0.9),
+								rgba(0, 0, 0, 0));
+}
+.explicacio{
+	position: absolute;
+	top: 270px;
+	left: 59vw;
+	width: 300px;
+	padding: 22px 0px 22px 0px;
+	background:radial-gradient(
+							rgba(0, 0, 0, 0.08),
+							rgba(255, 255, 255, 0.1));
+}
+.explicacio p{
+	text-align: center;
+	padding: 5px 0 0 0;
+	margin: 0px;
+	color: #ffffffe6;
+	font-size: 14px;
+	font-weight: 900;
+	padding: 2px 13px 2px 13px;
+}
+.finestra img{
+	position: absolute;
+	z-index: 0;
+	width: 43vw;
+	object-fit: cover;
+	top: 190px;
+	max-height: 65vh;
+	left: 45vw;
+	border: 2px solid #ffffff6b;
+	animation-name: zoom;
+    animation-duration: 0.05s;
+}
+@media only screen and (max-width: 1300px) {
+	.finestra img{
+		left: 50vw;
+	}
+}
+@keyframes zoom {
+    from {transform:scale(0.5)} 
+    to {transform:scale(1)}
+}
+.enrere{
+	margin: 0;
+	position: absolute;
+	bottom: 30px;
+	left: 35vw;
+	z-index: 1;
+}
+.enrere a{
+	background:linear-gradient(to right,
+								rgba(0, 0, 0, 0),
+								rgba(275, 275, 275, 0.7),
+								rgba(275, 275, 275, 0.7),
+								rgba(0, 0, 0, 0));
+	display: block;
+	width: 30vw;
+	min-width: 200px;
+	height: 30px;
+	margin: 0;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+.enrere img{
+	height: 100%;
+	top: 50%;
+	padding: 2px;
+}
+.enrere a:hover{
+	background:linear-gradient(to right,
+								rgba(0, 0, 0, 0),
+								rgba(275, 275, 275, 0.9),
+								rgba(275, 275, 275, 0.9),
+								rgba(0, 0, 0, 0));
+
+}
